@@ -27,7 +27,7 @@ function App() {
     <header><a className="brand" href="/">Field Notes<span> / </span></a><nav><a href="/guides/hosting">Hosting guide</a><a href="#contact">Contact</a></nav></header>
     <main>
       <div className="eyebrow">DEVELOPER FIELD GUIDE</div>
-      <h1>A static frontend.<br/>Room for a backend.</h1>
+      <h1>A React frontend<br/>with a separate API.</h1>
       <p className="intro">Build your pages once. Add a small API when your site needs to handle a request.</p>
       <div className="columns"><section className="article">
         <div className="number">01 / FRONTEND</div><h2>Serve the files you build</h2>

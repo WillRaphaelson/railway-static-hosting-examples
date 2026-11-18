@@ -27,7 +27,7 @@ npm ci
 npm run build
 ```
 
-For development, add a Vite development proxy or run Caddy against the output directory. `vite preview` is useful for reviewing the build locally but is not a production server. The supplied Caddyfile expects Railway's `/app/dist` path; for a local Caddy instance, use your absolute `apps/web/dist` directory, `API_HOST=localhost`, and `API_PORT=3000`.
+For development, add a Vite development proxy or run Caddy against the output directory. `vite preview` is useful for reviewing the build locally but is not a production server. The supplied Caddyfile defaults to Railway's `/app/dist` path; for a local Caddy instance, set `STATIC_ROOT` to your absolute `apps/web/dist` directory, `API_HOST=localhost`, and `API_PORT=3000`.
 
 ```sh
 cd apps/docs
