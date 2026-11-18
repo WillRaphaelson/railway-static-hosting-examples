@@ -37,6 +37,8 @@ npm run build
 
 ## Deploy to Railway
 
+[Deploy the React, Docusaurus, and private API template](https://railway.com/deploy/static-hosting-field-guide). It creates all three services and public HTTPS domains for the frontends, using the tested configuration. CDN caching is optional and must be enabled separately. Runtime resources consume credit or incur plan charges.
+
 The IaC file is for a new, dedicated project. Never apply it to an unrelated project: a whole-project configuration can remove omitted resources.
 
 Install the root dependencies, link the intended project, inspect `railway config plan`, then apply the reviewed plan. Confirm the GitHub source repository and branch before applying a fork. The template is generated from the tested project's actual configuration rather than requiring readers to apply IaC themselves.
@@ -49,4 +51,4 @@ Before accepting real submissions, add durable delivery or storage, abuse contro
 
 ## Verification status
 
-See the article workspace's dated verification record for executed checks. Local builds do not by themselves establish Railway deployment or CDN behavior.
+Production builds, private frontend-to-API requests, valid and invalid form submissions, direct SPA navigation, missing static assets, Docusaurus clean URLs and HTTP 404 responses, and repeated asset cache hits were verified on Railway. The same checks passed after deploying the published template into a separate project. The frontend was also redeployed from GitHub source. See VERIFICATION.md for scope and versions. Supporting deployments are stopped after verification; the template and repository remain available.

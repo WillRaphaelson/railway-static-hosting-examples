@@ -28,4 +28,4 @@ Use one project to inspect a static frontend, a private backend, and a documenta
 
 The frontend's API_HOST variable references the API service's Railway private domain. Its API_PORT is 3000. The API listens on that port and has no public domain requirement. The docs service uses RAILPACK_SPA_OUTPUT_DIR=build.
 
-Generate public domains for the frontend and docs service. Enable optional CDN caching only after the domains exist. Runtime resources consume credit or incur plan charges; this is not a promise of permanently free hosting.
+The template creates public domains for the frontend and docs service. If applying the IaC directly instead, generate those domains afterward. Enable optional CDN caching only after the domains exist. Runtime resources consume credit or incur plan charges; this is not a promise of permanently free hosting.
