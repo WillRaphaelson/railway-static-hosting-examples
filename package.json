@@ -1,0 +1,7 @@
+{
+  "name": "railway-static-hosting-examples",
+  "private": true,
+  "type": "module",
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "devDependencies": { "railway": "latest", "typescript": "latest", "@types/node": "latest" }
+}

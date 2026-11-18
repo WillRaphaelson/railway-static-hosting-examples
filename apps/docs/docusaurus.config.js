@@ -1,0 +1,1 @@
+module.exports={title:'Field Notes Docs',url:'https://example.com',baseUrl:'/',onBrokenLinks:'throw',presets:[['classic',{docs:{routeBasePath:'/',sidebarPath:false},blog:false}]],themeConfig:{navbar:{title:'Field Notes Docs'},footer:{copyright:'Static hosting example'}}};
